@@ -1,0 +1,46 @@
+angular podemos desarroolar para la web, movil nativas
+native script, angular universal (server side rendering), escritorio con electron, Ionic
+
+-framework Angular
+Angular es un marco de trabajo estandarizado
+Viene con las herramientas que necesito trabajar
+Modular
+Google lo mantiene
+
+
+-Bloques fundamentales
+1. Componentes : que sean bloques pequenhos y simples,
+bloque de codigo HTML y TypeScript
+el html da la forma
+2. Servicios : pueden utilizarse para reemplazar redux/otros gestores de estado.
+Los servicios son componentes singleton que nos permitira centralizar los datos.
+Los servicios son lugares centralizados de informacion
+3. Directivas
+Directivas de componentes: parecidas a componentes con html reutilizable.
+  inserto esa directiva generara el html con cierta funcionalidad integrada
+Directivas Estructurales: modificar el DOM o el html, anhade o remueve elementos
+Directivas de atributos: cambia la apariencia de un elemento, componente o directiva
+4. Rutas: muestra diferentes componentes basados en la URL del navegador web
+5. Modulos: incluye los demas bloques/pilares y ademas otros modulos
+
+
+
+
+archivos compilacion
+vendor.js contiene los paquetes de node
+runtime.js es el runtime que nos permite correr nuestra aplicacion
+main.js contiene los nuestros archivos (supongo que todo los que se escribio componentes, etc)
+styles.css, styles.js  contiene los css y los js que sean necesarios para el estilo
+polyfills.js contiene los que se encargan de la compatibilidad de navegadores
+
+
+
+
+
+
+
+
+
+
+
+
