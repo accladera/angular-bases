@@ -26,8 +26,20 @@ Directivas de atributos: cambia la apariencia de un elemento, componente o direc
 
 
 
+archivos compilacion
+vendor.js contiene los paquetes de node
+runtime.js es el runtime que nos permite correr nuestra aplicacion
+main.js contiene los nuestros archivos (supongo que todo los que se escribio componentes, etc)
+styles.css, styles.js  contiene los css y los js que sean necesarios para el estilo
+polyfills.js contiene los que se encargan de la compatibilidad de navegadores
 
 
+Publicar en local para pruebas
+https://www.npmjs.com/package/http-server
+instalar esa libreria globalmente
+npm install --global http-server
+abrir server
+http-server -o
 
 
 
